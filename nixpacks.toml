@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["lua5_4", "nodejs_20"]
-
-[phases.install]
-cmds = ["npm install"]
-
-[start]
-cmd = "node start.js"
